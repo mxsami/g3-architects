@@ -89,6 +89,8 @@ Brand New Section
 .team-Features {
     display: flex;
     margin: 90px 300px;
+    justify-content: center;
+    align-items: center;
 }
 
 .team-img {
@@ -97,10 +99,6 @@ Brand New Section
     grid-gap: 24px;
 }
 
-.team-Features {
-    justify-content: center;
-    align-items: center;
-}
 
 .quick-list {
     margin-left: 70px;
@@ -338,10 +336,13 @@ footer {
     /* -Team Features & Quick list-- */
     .team-Features {
         flex-direction: column-reverse;
-        margin: 0px;
+        margin: 5px;
         margin-top: 50px;
     }
-
+    .quick-list-{
+        margin: 5px;
+        padding: 5px;
+    }
     .team-img {
         grid-template-columns: repeat(1, 1fr);
     }
